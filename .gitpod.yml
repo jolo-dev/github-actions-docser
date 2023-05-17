@@ -1,0 +1,10 @@
+
+tasks:
+  - init: pnpm install
+
+
+
+vscode:
+  extensions:
+    - pomdtr.excalidraw-editorour
+    - astro-build.astro-vscode# and commit this file to your remote git repository to share the goodness with others.

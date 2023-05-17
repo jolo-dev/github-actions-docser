@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "include": [
+        "src/**/*.ts",
+        "tests/**/*.ts",
+        "docs/**/*.ts"
+    ],
+    "compilerOptions": {
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "foo"
+    }
+}

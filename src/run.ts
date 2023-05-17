@@ -1,9 +1,12 @@
-const core = require('@actions/core');
-const wait = require('./wait');
+import core from '@actions/core';
+import {wait} from './wait';
 
-
-// most @actions toolkit packages have async methods
-async function run() {
+/**
+ * This is a TypeScript function that waits for a specified number of milliseconds and then outputs the
+ * current time.
+ * @beta
+ */
+export default async function run() {
   try {
     const ms = core.getInput('milliseconds');
     core.info(`Waiting ${ms} milliseconds ...`);
@@ -13,9 +16,7 @@ async function run() {
     core.info((new Date()).toTimeString());
 
     core.setOutput('time', new Date().toTimeString());
-  } catch (error) {
-    core.setFailed(error.message);
+  } catch (error: any) {
+    core.setFailed(error);
   }
 }
-
-run();
