@@ -10,18 +10,18 @@ dependencies:
     version: 1.10.0
   '@microsoft/api-documenter':
     specifier: ^7.22.32
-    version: 7.22.32(@types/node@20.3.2)
+    version: 7.22.32(@types/node@20.4.5)
   '@microsoft/api-extractor':
     specifier: ^7.36.2
-    version: 7.36.2(@types/node@20.3.2)
+    version: 7.36.2(@types/node@20.4.5)
 
 devDependencies:
   '@tsconfig/recommended':
     specifier: ^1.0.2
     version: 1.0.2
   '@types/node':
-    specifier: ^20.3.2
-    version: 20.3.2
+    specifier: ^20.4.5
+    version: 20.4.5
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.60.0)(eslint@8.46.0)(typescript@5.1.6)
@@ -573,13 +573,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@microsoft/api-documenter@7.22.32(@types/node@20.3.2):
+  /@microsoft/api-documenter@7.22.32(@types/node@20.4.5):
     resolution: {integrity: sha512-JePSgTg3qz5SiqcINQO52EKNh15DTbnvUpnx1qcrBlpR9gX0TmCw5g5uGPegIHJzIeif4uYe15nEUynrYDT2nw==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.27.5(@types/node@20.3.2)
+      '@microsoft/api-extractor-model': 7.27.5(@types/node@20.4.5)
       '@microsoft/tsdoc': 0.14.2
-      '@rushstack/node-core-library': 3.59.6(@types/node@20.3.2)
+      '@rushstack/node-core-library': 3.59.6(@types/node@20.4.5)
       '@rushstack/ts-command-line': 4.15.1
       colors: 1.2.5
       js-yaml: 3.13.1
@@ -588,34 +588,34 @@ packages:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor-model@7.27.4(@types/node@20.3.2):
+  /@microsoft/api-extractor-model@7.27.4(@types/node@20.4.5):
     resolution: {integrity: sha512-HjqQFmuGPOS20rtnu+9Jj0QrqZyR59E+piUWXPMZTTn4jaZI+4UmsHSf3Id8vyueAhOBH2cgwBuRTE5R+MfSMw==}
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.59.5(@types/node@20.3.2)
+      '@rushstack/node-core-library': 3.59.5(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor-model@7.27.5(@types/node@20.3.2):
+  /@microsoft/api-extractor-model@7.27.5(@types/node@20.4.5):
     resolution: {integrity: sha512-9/tBzYMJitR+o+zkPr1lQh2+e8ClcaTF6eZo7vZGDqRt2O5XmXWPbYJZmxyM3wb5at6lfJNEeGZrQXLjsQ0Nbw==}
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.59.6(@types/node@20.3.2)
+      '@rushstack/node-core-library': 3.59.6(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor@7.36.2(@types/node@20.3.2):
+  /@microsoft/api-extractor@7.36.2(@types/node@20.4.5):
     resolution: {integrity: sha512-ONe/jOmTZtR3OjTkWKHmeSV1P5ozbHDxHr6FV3KoWyIl1AcPk2B3dmvVBM5eOlZB5bgM66nxcWQTZ6msQo2hHg==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.27.4(@types/node@20.3.2)
+      '@microsoft/api-extractor-model': 7.27.4(@types/node@20.4.5)
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.59.5(@types/node@20.3.2)
+      '@rushstack/node-core-library': 3.59.5(@types/node@20.4.5)
       '@rushstack/rig-package': 0.4.0
       '@rushstack/ts-command-line': 4.15.1
       colors: 1.2.5
@@ -753,7 +753,7 @@ packages:
       rollup: 3.21.5
     dev: true
 
-  /@rushstack/node-core-library@3.59.5(@types/node@20.3.2):
+  /@rushstack/node-core-library@3.59.5(@types/node@20.4.5):
     resolution: {integrity: sha512-1IpV7LufrI1EoVO8hYsb3t6L8L+yp40Sa0OaOV2CIu1zx4e6ZeVNaVIEXFgMXBKdGXkAh21MnCaIzlDNpG6ZQw==}
     peerDependencies:
       '@types/node': '*'
@@ -761,7 +761,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.4.5
       colors: 1.2.5
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -771,7 +771,7 @@ packages:
       z-schema: 5.0.5
     dev: false
 
-  /@rushstack/node-core-library@3.59.6(@types/node@20.3.2):
+  /@rushstack/node-core-library@3.59.6(@types/node@20.4.5):
     resolution: {integrity: sha512-bMYJwNFfWXRNUuHnsE9wMlW/mOB4jIwSUkRKtu02CwZhQdmzMsUbxE0s1xOLwTpNIwlzfW/YT7OnOHgDffLgYg==}
     peerDependencies:
       '@types/node': '*'
@@ -779,7 +779,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.4.5
       colors: 1.2.5
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -835,8 +835,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@20.3.2:
-    resolution: {integrity: sha512-vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==}
+  /@types/node@20.4.5:
+    resolution: {integrity: sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==}
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -2505,7 +2505,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /vite-node@0.33.0(@types/node@20.3.2):
+  /vite-node@0.33.0(@types/node@20.4.5):
     resolution: {integrity: sha512-19FpHYbwWWxDr73ruNahC+vtEdza52kA90Qb3La98yZ0xULqV8A5JLNPUff0f5zID4984tW7l3DH2przTJUZSw==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -2515,7 +2515,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.3.5(@types/node@20.3.2)
+      vite: 4.3.5(@types/node@20.4.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2526,7 +2526,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.3.5(@types/node@20.3.2):
+  /vite@4.3.5(@types/node@20.4.5):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -2551,7 +2551,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.3.2
+      '@types/node': 20.4.5
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.5
@@ -2592,7 +2592,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 20.3.2
+      '@types/node': 20.4.5
       '@vitest/expect': 0.33.0
       '@vitest/runner': 0.33.0
       '@vitest/snapshot': 0.33.0
@@ -2611,8 +2611,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.6.0
-      vite: 4.3.5(@types/node@20.3.2)
-      vite-node: 0.33.0(@types/node@20.3.2)
+      vite: 4.3.5(@types/node@20.4.5)
+      vite-node: 0.33.0(@types/node@20.4.5)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
