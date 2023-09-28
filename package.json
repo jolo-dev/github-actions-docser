@@ -49,7 +49,7 @@
   "homepage": "https://github.com/actions/javascript-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@microsoft/api-documenter": "^7.22.33",
+    "@microsoft/api-documenter": "^7.23.7",
     "@microsoft/api-extractor": "^7.37.0"
   },
   "devDependencies": {
