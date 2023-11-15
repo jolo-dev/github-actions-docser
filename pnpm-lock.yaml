@@ -12,8 +12,8 @@ dependencies:
     specifier: ^7.23.11
     version: 7.23.11(@types/node@20.8.4)
   '@microsoft/api-extractor':
-    specifier: ^7.38.2
-    version: 7.38.2(@types/node@20.8.4)
+    specifier: ^7.38.3
+    version: 7.38.3(@types/node@20.8.4)
 
 devDependencies:
   '@tsconfig/recommended':
@@ -991,8 +991,8 @@ packages:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor@7.38.2(@types/node@20.8.4):
-    resolution: {integrity: sha512-JOARuhTwOcOMIU0O2czscoJy3ddVzIRhSA9/7T1ALuZSNphgWsPk+Bv4E7AnBDmTV4pP4lBNLtCxEHjjpWaytQ==}
+  /@microsoft/api-extractor@7.38.3(@types/node@20.8.4):
+    resolution: {integrity: sha512-xt9iYyC5f39281j77JTA9C3ISJpW1XWkCcnw+2vM78CPnro6KhPfwQdPDfwS5JCPNuq0grm8cMdPUOPvrchDWw==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor-model': 7.28.2(@types/node@20.8.4)
