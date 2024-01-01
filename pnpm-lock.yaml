@@ -10,18 +10,18 @@ dependencies:
     version: 1.10.1
   '@microsoft/api-documenter':
     specifier: ^7.23.15
-    version: 7.23.15(@types/node@20.10.5)
+    version: 7.23.15(@types/node@20.10.6)
   '@microsoft/api-extractor':
     specifier: ^7.39.0
-    version: 7.39.0(@types/node@20.10.5)
+    version: 7.39.0(@types/node@20.10.6)
 
 devDependencies:
   '@tsconfig/recommended':
     specifier: ^1.0.2
     version: 1.0.2
   '@types/node':
-    specifier: ^20.10.5
-    version: 20.10.5
+    specifier: ^20.10.6
+    version: 20.10.6
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.62.0
     version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -42,7 +42,7 @@ devDependencies:
     version: 2.0.0(typescript@5.3.3)
   vitest:
     specifier: ^1.1.0
-    version: 1.1.0(@types/node@20.10.5)
+    version: 1.1.0(@types/node@20.10.6)
 
 packages:
 
@@ -966,13 +966,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@microsoft/api-documenter@7.23.15(@types/node@20.10.5):
+  /@microsoft/api-documenter@7.23.15(@types/node@20.10.6):
     resolution: {integrity: sha512-dOMuxPtpINTO/P9NXcww0iIJ3yZnt5jiy1XQT/Hv21TjyVjcxYlICItvoagyz5B+T8w8sV7KEx/rcIwVPGAWuQ==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.28.3(@types/node@20.10.5)
+      '@microsoft/api-extractor-model': 7.28.3(@types/node@20.10.6)
       '@microsoft/tsdoc': 0.14.2
-      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.5)
+      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.6)
       '@rushstack/ts-command-line': 4.17.1
       colors: 1.2.5
       js-yaml: 3.13.1
@@ -981,24 +981,24 @@ packages:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor-model@7.28.3(@types/node@20.10.5):
+  /@microsoft/api-extractor-model@7.28.3(@types/node@20.10.6):
     resolution: {integrity: sha512-wT/kB2oDbdZXITyDh2SQLzaWwTOFbV326fP0pUwNW00WeliARs0qjmXBWmGWardEzp2U3/axkO3Lboqun6vrig==}
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.5)
+      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.6)
     transitivePeerDependencies:
       - '@types/node'
     dev: false
 
-  /@microsoft/api-extractor@7.39.0(@types/node@20.10.5):
+  /@microsoft/api-extractor@7.39.0(@types/node@20.10.6):
     resolution: {integrity: sha512-PuXxzadgnvp+wdeZFPonssRAj/EW4Gm4s75TXzPk09h3wJ8RS3x7typf95B4vwZRrPTQBGopdUl+/vHvlPdAcg==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.28.3(@types/node@20.10.5)
+      '@microsoft/api-extractor-model': 7.28.3(@types/node@20.10.6)
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.5)
+      '@rushstack/node-core-library': 3.62.0(@types/node@20.10.6)
       '@rushstack/rig-package': 0.5.1
       '@rushstack/ts-command-line': 4.17.1
       colors: 1.2.5
@@ -1232,7 +1232,7 @@ packages:
     dev: true
     optional: true
 
-  /@rushstack/node-core-library@3.62.0(@types/node@20.10.5):
+  /@rushstack/node-core-library@3.62.0(@types/node@20.10.6):
     resolution: {integrity: sha512-88aJn2h8UpSvdwuDXBv1/v1heM6GnBf3RjEy6ZPP7UnzHNCqOHA2Ut+ScYUbXcqIdfew9JlTAe3g+cnX9xQ/Aw==}
     peerDependencies:
       '@types/node': '*'
@@ -1240,7 +1240,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 20.10.5
+      '@types/node': 20.10.6
       colors: 1.2.5
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -1286,8 +1286,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node@20.10.5:
-    resolution: {integrity: sha512-nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==}
+  /@types/node@20.10.6:
+    resolution: {integrity: sha512-Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==}
     dependencies:
       undici-types: 5.26.5
 
@@ -3084,7 +3084,7 @@ packages:
     engines: {node: '>= 0.10'}
     dev: false
 
-  /vite-node@1.1.0(@types/node@20.10.5):
+  /vite-node@1.1.0(@types/node@20.10.6):
     resolution: {integrity: sha512-jV48DDUxGLEBdHCQvxL1mEh7+naVy+nhUUUaPAZLd3FJgXuxQiewHcfeZebbJ6onDqNGkP4r3MhQ342PRlG81Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3093,7 +3093,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.5(@types/node@20.10.5)
+      vite: 5.0.5(@types/node@20.10.6)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3105,7 +3105,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.0.5(@types/node@20.10.5):
+  /vite@5.0.5(@types/node@20.10.6):
     resolution: {integrity: sha512-OekeWqR9Ls56f3zd4CaxzbbS11gqYkEiBtnWFFgYR2WV8oPJRRKq0mpskYy/XaoCL3L7VINDhqqOMNDiYdGvGg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3133,7 +3133,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.10.5
+      '@types/node': 20.10.6
       esbuild: 0.19.8
       postcss: 8.4.32
       rollup: 4.6.1
@@ -3141,7 +3141,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.1.0(@types/node@20.10.5):
+  /vitest@1.1.0(@types/node@20.10.6):
     resolution: {integrity: sha512-oDFiCrw7dd3Jf06HoMtSRARivvyjHJaTxikFxuqJjO76U436PqlVw1uLn7a8OSPrhSfMGVaRakKpA2lePdw79A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3166,7 +3166,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.10.5
+      '@types/node': 20.10.6
       '@vitest/expect': 1.1.0
       '@vitest/runner': 1.1.0
       '@vitest/snapshot': 1.1.0
@@ -3185,8 +3185,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.1
-      vite: 5.0.5(@types/node@20.10.5)
-      vite-node: 1.1.0(@types/node@20.10.5)
+      vite: 5.0.5(@types/node@20.10.6)
+      vite-node: 1.1.0(@types/node@20.10.6)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
