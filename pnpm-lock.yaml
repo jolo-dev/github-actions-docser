@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.10.1
     version: 1.10.1
   '@microsoft/api-documenter':
-    specifier: ^7.23.23
-    version: 7.23.23(@types/node@20.11.19)
+    specifier: ^7.23.25
+    version: 7.23.25(@types/node@20.11.19)
   '@microsoft/api-extractor':
     specifier: ^7.40.1
     version: 7.40.1(@types/node@20.11.19)
@@ -966,17 +966,27 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@microsoft/api-documenter@7.23.23(@types/node@20.11.19):
-    resolution: {integrity: sha512-77upYNmm6h9+8hdNWL7R1+vW1QaExkwKuOuSWR2v3Tdk2JHCVf+s341jybgYEnxRhIQIIxtLeiwQ/xzMFOizwQ==}
+  /@microsoft/api-documenter@7.23.25(@types/node@20.11.19):
+    resolution: {integrity: sha512-zb7wm2l5n+DDkU1P9D9px9dpbzB8WWWFRmIyJweCVjyAX12dNeoqHS9kr4LiOfJcDjpdRJT2zPU0vNqMpkSLWA==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.28.9(@types/node@20.11.19)
+      '@microsoft/api-extractor-model': 7.28.11(@types/node@20.11.19)
       '@microsoft/tsdoc': 0.14.2
-      '@rushstack/node-core-library': 3.66.0(@types/node@20.11.19)
-      '@rushstack/ts-command-line': 4.17.1
+      '@rushstack/node-core-library': 4.0.0(@types/node@20.11.19)
+      '@rushstack/ts-command-line': 4.17.2
       colors: 1.2.5
       js-yaml: 3.13.1
       resolve: 1.22.2
+    transitivePeerDependencies:
+      - '@types/node'
+    dev: false
+
+  /@microsoft/api-extractor-model@7.28.11(@types/node@20.11.19):
+    resolution: {integrity: sha512-iyYqSH4gI3dFj4GLTTvi4Usgd5bILc9bbB5m2xul5tJ0JQ9G9lc1rY67rSD6O0hU62E1WRHOai9GUUVXMgCTdA==}
+    dependencies:
+      '@microsoft/tsdoc': 0.14.2
+      '@microsoft/tsdoc-config': 0.16.2
+      '@rushstack/node-core-library': 4.0.0(@types/node@20.11.19)
     transitivePeerDependencies:
       - '@types/node'
     dev: false
@@ -1250,6 +1260,24 @@ packages:
       z-schema: 5.0.5
     dev: false
 
+  /@rushstack/node-core-library@4.0.0(@types/node@20.11.19):
+    resolution: {integrity: sha512-4ocU3K2NtpILEWG6LjSMRSwrb0CjvYOioVTzqvIOj6vc5yD0BcscfpVp5dkHGLZxnqdmkBrTKvyg6AmqhWnw1w==}
+    peerDependencies:
+      '@types/node': '*'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+    dependencies:
+      '@types/node': 20.11.19
+      colors: 1.2.5
+      fs-extra: 7.0.1
+      import-lazy: 4.0.0
+      jju: 1.4.0
+      resolve: 1.22.2
+      semver: 7.5.4
+      z-schema: 5.0.5
+    dev: false
+
   /@rushstack/rig-package@0.5.1:
     resolution: {integrity: sha512-pXRYSe29TjRw7rqxD4WS3HN/sRSbfr+tJs4a9uuaSIBAITbUggygdhuG0VrO0EO+QqH91GhYMN4S6KRtOEmGVA==}
     dependencies:
@@ -1259,6 +1287,15 @@ packages:
 
   /@rushstack/ts-command-line@4.17.1:
     resolution: {integrity: sha512-2jweO1O57BYP5qdBGl6apJLB+aRIn5ccIRTPDyULh0KMwVzFqWtw6IZWt1qtUoZD/pD2RNkIOosH6Cq45rIYeg==}
+    dependencies:
+      '@types/argparse': 1.0.38
+      argparse: 1.0.10
+      colors: 1.2.5
+      string-argv: 0.3.2
+    dev: false
+
+  /@rushstack/ts-command-line@4.17.2:
+    resolution: {integrity: sha512-QS2S2nJo9zXq/+9Dk10LmvIFugMizI9IeQUH4jnhIcoaeqYlsv2fK830U+/gMKpI5vomXz19XMXfkUfZzO4R3A==}
     dependencies:
       '@types/argparse': 1.0.38
       argparse: 1.0.10
